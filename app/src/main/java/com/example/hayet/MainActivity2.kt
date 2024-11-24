@@ -128,7 +128,7 @@ fun SignUpScreen(modifier: Modifier = Modifier) {
             text = "Already have an account? Login",
             modifier = Modifier.clickable {
                 val intent = Intent (context , MainActivity::class.java)
-                intent.putExtra("Aya","21")
+                intent.putExtra("areej","21")
                 context.startActivity(intent)
             },
             color = MaterialTheme.colorScheme.primary,
